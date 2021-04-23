@@ -1,0 +1,42 @@
+{
+  "name": "@andymark/vue3-multiselect",
+  "version": "0.1.0",
+  "description": "Vue 3 Multi Select Component",
+  "scripts": {
+    "serve": "vue-cli-service serve --open src/MultiSelect.vue",
+    "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name MultiSelect src/index.js"
+  },
+  "main": "dist/imageUploader.common.js",
+  "unpkg": "dist/imageUploader.umd.min.js",
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "vue": "^3.0.11",
+    "@vue/compiler-sfc": "^3.0.11",
+    "@vue/cli-service": "^4.5.12",
+    "vue-loader": "^16.2.0",
+    "vue-template-compiler": "^2.6.12",
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "autoprefixer": "^9.8.6",
+    "click-outside-vue3": "^4.0.1",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andymark-by/vue3-multiselect.git"
+  },
+  "keywords": [
+    "multiselect",
+    "select",
+    "vue3"
+  ],
+  "author": "Andy Mark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andymark-by/vue3-multiselect/issues"
+  },
+  "homepage": "https://github.com/andymark-by/vue3-multiselect#readme"
+}
